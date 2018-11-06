@@ -24,7 +24,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Importing a Component](#importing-a-component)
 - [Code Splitting](#code-splitting)
 - [Adding a Stylesheet](#adding-a-stylesheet)
-- [Adding a CSS Modules Stylesheet](#adding-a-css-modules-stylesheet)
+- [Adding a CSS Modules Stylesheet](#adding-a-css-modules-stylesheet)q
 - [Adding a Sass Stylesheet](#adding-a-sass-stylesheet)
 - [Post-Processing CSS](#post-processing-css)
 - [Adding Images, Fonts, and Files](#adding-images-fonts-and-files)

@@ -83,7 +83,8 @@ export default class ContactData extends Component {
               { value: 'cheapeas', displayValue: 'Cheapeas' }
             ]
           },
-          value: ''
+          value: '',
+          valid: true
         }
       },
       loading: false
@@ -131,8 +132,8 @@ export default class ContactData extends Component {
     }
     updatedForm[inputIdentifier].value  = event.target.value;
     updatedForm[inputIdentifier].valid = this.checkValidity(event.target.value,updatedForm[inputIdentifier].validation);
-    console.log('Update form:', updatedForm);
     updatedForm.touched = true;
+
     this.setState({
       orderForm: updatedForm
     });
@@ -160,7 +161,8 @@ export default class ContactData extends Component {
             changed={(event) => this.inputChangedHandler(event,formElement.id)}
           />
         ))}
-        <Button btnType="Success">
+        <Button btnType="Success"
+        >
           ORDER
         </Button>
       </form>
